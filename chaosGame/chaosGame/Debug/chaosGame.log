@@ -1,0 +1,21 @@
+﻿  display.c
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\display.c(231,14): warning C4098: 'changeNumber': 'void' function returning a value
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\display.c(242,19): warning C4047: 'function': 'char *const ' differs in levels of indirection from 'char (*)[6]'
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\display.c(242,10): warning C4024: 'sprintf': different types for formal and actual parameter 1
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\display.c(244,60): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char (*)[6]'
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\display.c(244,51): warning C4024: 'TTF_RenderUTF8_Blended': different types for formal and actual parameter 2
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\display.c(242,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  functions.c
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\functions.c(11,18): warning C4013: 'rand' undefined; assuming extern returning int
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\functions.c(166,106): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\functions.c(168,106): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\functions.c(194,104): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\functions.c(288,19): warning C4305: '=': truncation from 'double' to 'float'
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\functions.c(304,19): warning C4305: '=': truncation from 'double' to 'float'
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\functions.c(373,97): warning C4133: 'function': incompatible types - from 'int *' to 'bool *'
+  main.c
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\main.c(21,7): warning C4013: 'srand' undefined; assuming extern returning int
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\main.c(25,34): warning C4047: 'function': 'SDL_Window *' differs in levels of indirection from 'SDL_Window **'
+D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\chaosGame\main.c(25,27): warning C4024: 'createDisplay': different types for formal and actual parameter 1
+  Generating Code...
+  chaosGame.vcxproj -> D:\Documents\sztudyja\pk\projekt_sem2\chaosGame\Debug\chaosGame.exe
